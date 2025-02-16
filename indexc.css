@@ -7,7 +7,6 @@
 }
 Cards{
     display: flex;
-    flex-direction: column-reverse;
     justify-content:center; 
     align-items: center; 
     margin: 100px;
@@ -81,6 +80,7 @@ img{
 @media only screen and (max-width: 375px) {
     
     Cards{
+        flex-direction: column-reverse;
         display: block;
     }
  
